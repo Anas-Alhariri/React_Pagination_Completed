@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.pages-nav {
+  display: flex;
+  list-style: none;
+  max-width: 100%;
+  min-height: fit-content;
+  // background-color: #999;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1%;
+
+  li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.2%;
+
+    min-width: 40px;
+    width: 40px;
+    height: 40px;
+
+
+    background-color: #F7F0FF;
+    border-radius: 50%;
+    // margin: auto;
+
+    a,
+    a:visited,
+    a:hover,
+    a:focus,
+    a:active,
+    a:hover:visited,
+    a:focus:active {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: black;
+      text-decoration: none;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: color 0.3s ease-in-out;
+
+      &:hover {
+        color: #FF69BB;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 930px) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

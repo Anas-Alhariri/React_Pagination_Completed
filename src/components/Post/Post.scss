@@ -1,0 +1,33 @@
+.post {
+    text-align: left;
+    border: 2px solid rgba(216, 195, 255, 0.575);
+    border-radius: 5px;
+    max-width: 500px;
+
+    padding: 1% 2%;
+    margin: auto;
+    margin-bottom: 10px;
+
+    background-color: rgb(247, 240, 255);
+
+    font-size: 1rem;
+
+    &__id {
+        color: darkgoldenrod;
+        font-size: .8em;
+        font-weight: 500;
+    }
+
+    &__title {
+        font-weight: 500;
+        font-size: 1.5em;
+
+        color: hotpink;
+        text-transform: capitalize;
+    }
+
+    &__content {
+        color: blueviolet;
+        font-size: 1.2em;
+    }
+}

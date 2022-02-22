@@ -1,0 +1,12 @@
+page ={
+    maxItemsCount: 100,
+    itemsPerPage: 10,
+    itemsList: [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ]
+}
